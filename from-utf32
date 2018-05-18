@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -e
+
+head -c 8 | iconv -f UTF-32 -t UTF-8
